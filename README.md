@@ -6,7 +6,7 @@ A classic Tic-Tac-Toe game built with **React** and styled for a smooth, interac
 
 ## 🖼️ Preview
 
-![Game Screenshot]("\src\assets\Screenshot 2025-03-19 224326.png")
+![Game Screenshot]("./assets/Game.png")
 
 ---
 
