@@ -4,11 +4,7 @@ A classic Tic-Tac-Toe game built with **React** and styled for a smooth, interac
 
 ---
 
-## 🖼️ Preview
 
-![Game Screenshot]("./assets/Game.png")
-
----
 
 ## ⚙️ Features
 
