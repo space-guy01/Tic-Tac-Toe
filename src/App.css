@@ -1,0 +1,84 @@
+/* General Styles */
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f4f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.status {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+}
+
+/* Board Styles */
+.board-row {
+  display: flex;
+}
+
+/* Square Styles */
+.square {
+  background-color: #fff;
+  border: 2px solid #4a90e2;
+  font-size: 36px;
+  font-weight: bold;
+  color: #4a90e2;
+  width: 80px;
+  height: 80px;
+  margin: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.square:hover {
+  background-color: #e6f0fa;
+  transform: scale(1.05);
+}
+
+.square:active {
+  background-color: #d4e4f4;
+  transform: scale(0.98);
+}
+
+/* Optional: Winner Highlight */
+.square.winner {
+  background-color: #4a90e2;
+  color: #fff;
+  animation: winnerPulse 1s infinite alternate;
+}
+
+@keyframes winnerPulse {
+  from {
+    transform: scale(1);
+    box-shadow: 0 0 10px #4a90e2;
+  }
+  to {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px #4a90e2;
+  }
+}
+
+/* Restart Button */
+button.restart-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 18px;
+  border: none;
+  border-radius: 8px;
+  background-color: #4a90e2;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button.restart-btn:hover {
+  background-color: #357ab8;
+}
